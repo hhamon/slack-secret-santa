@@ -4,7 +4,7 @@ Just go to https://slack-secret-santa.herokuapp.com/ and have fun.
 
 Code source is under MIT License.
 
-- This application is powered by Symfony 2.8 and his new Micro Kernel;
+- This application is powered by Symfony 2.8 and its new Micro Kernel;
 - Hosting is provided by Heroku;
 - Session are stored in Heroku Redis servers;
 - Frontend is built with bootstrap, obviously (any help welcome from designer ^^);
@@ -35,6 +35,6 @@ As we rely on env variables, we cannot use `server:run`. From `web/`:
     
 Variables are:
 
-- SLACK_CLIENT_SECRET: Application secret from Slack;
-- SLACK_CLIENT_ID: Application id from Slack;
-- REDIS_URL: The full redis connexion url (default `redis://localhost:6379`)
+- `SLACK_CLIENT_SECRET`: Application secret from Slack;
+- `SLACK_CLIENT_ID`: Application id from Slack;
+- `REDIS_URL`: The full redis connexion url (default `redis://localhost:6379`)
